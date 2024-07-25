@@ -1,0 +1,120 @@
+body {
+    background-color: #EAEBED;
+    padding: 0;
+    margin: 0;
+    font-family: 'Hind Vadodora', sans-serif;
+}
+
+nav {
+    padding: 5px;
+    width: 100%;
+    height: 5%;
+    border-bottom: 1px solid #006874;
+    color: #006874;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+h1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+}
+
+#brand {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+main {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#brand {
+    color: #006874;
+}
+
+button {
+    background-color: #006874;
+    color: white;
+    border: 1px solid #006874;
+    border-radius: 0.5em;
+    padding: 8px;
+    letter-spacing: 0.1em;
+}
+
+button:hover {
+    background-color: #00535c;
+}
+
+#meals {
+    width: 80%;
+}
+
+#numMeals {
+    text-align: center;
+}
+
+#clearMeals {
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+.meal {
+    max-width: 700px;
+    padding: 10px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto auto auto;
+      gap: 10px;
+    border: 1px solid #006874;
+    border-radius: 0.8em;
+    margin-bottom: 1em;
+}
+
+.mealTitle {
+    grid-column: span 2;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.mealImage {
+    grid-column: span 2;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.viewRecipe {
+    grid-column: span 2;
+    width: 34%;
+    margin: 0 auto;
+}
+
+.ingredients {
+    grid-column: span 1;
+    text-align: right;
+}
+
+.recipe {
+    margin: 0;
+    grid-column: span 1;
+}
+
+footer {
+    text-align: center;
+}
+
+a {
+    color: #006874;
+}
